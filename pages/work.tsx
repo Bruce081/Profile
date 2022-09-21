@@ -30,7 +30,7 @@ export const getStaticProps: GetStaticProps = async () => {
 const Work: NextPage<{ post: string }> = (props) => {
     const dispatch = useAppDispatch();
     useEffect(() => {
-        dispatch(setTitle("Work"));
+        dispatch(setTitle("工作"));
     }, [dispatch]);
 
     return (

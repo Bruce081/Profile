@@ -10,17 +10,17 @@ const list: ListItem<
     OverridableComponent<SvgIconTypeMap> & { muiName: string }
 >[] = [
     {
-        name: "Home",
+        name: "主页",
         href: "/",
         icon: HomeIcon,
     },
     {
-        name: "Work",
+        name: "工作",
         href: "/work",
         icon: WorkIcon,
     },
     {
-        name: "Posts",
+        name: "文章",
         href: "/posts",
         icon: ArticleRoundedIcon,
     },

@@ -22,7 +22,7 @@ import { useListPostsQuery } from "~/store/services/wp";
 const Home: NextPage = () => {
     const dispatch = useAppDispatch();
     useEffect(() => {
-        dispatch(setTitle("Posts"));
+        dispatch(setTitle("文章"));
     }, [dispatch]);
 
     const [page, setPage] = useState(1);

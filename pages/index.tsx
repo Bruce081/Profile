@@ -21,7 +21,7 @@ export const getStaticProps: GetStaticProps = async () => {
 const Home: NextPage<{ post: string }> = (props) => {
     const dispatch = useAppDispatch();
     useEffect(() => {
-        dispatch(setTitle("Home"));
+        dispatch(setTitle("主页"));
     }, [dispatch]);
 
     return (

@@ -25,7 +25,7 @@ import "@fontsource/noto-sans-sc";
 
 // User styles
 import avatar from "~/source/images/avatar.png";
-import favicon from "~/source/images/favicon.png";
+import favicon from "~/source/images/favicon@0.5x.png";
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
